@@ -56,8 +56,6 @@ class NumberPaths {
         if (in.hasNextLine()) {
             in.nextLine();
         }
-        System.err.println("Nb de lignes : " + M);
-        System.err.println("Nb de colonnes : " + N);
         for (int i = 0; i < M; i++) {
             String ROW = in.nextLine();
             for (int j = 0 ; j < N ; j++) {
